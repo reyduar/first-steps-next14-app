@@ -1,0 +1,8 @@
+.link {
+  margin-right: 1rem;
+  @apply hover:underline hover:text-blue-700 transition-all;
+}
+
+.active-link {
+  @apply text-blue-700;
+}
